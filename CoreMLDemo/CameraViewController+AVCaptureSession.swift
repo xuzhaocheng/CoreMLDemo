@@ -47,10 +47,13 @@ extension CameraViewController {
                 }
             }, completionHandler: { photoCaptureProcessor, imageData in
                 // When the capture is complete, remove a reference to the photo capture delegate so it can be deallocated.
-                self.endCapturePhoto()
+
                 if let data = imageData {
+                    self.endCapturePhoto()
                     self.beginClassify()
                     self.classify(data)
+                } else {
+                    self.endCapturePhoto(CapturePhotoError.noImageData)
                 }
             }
             )

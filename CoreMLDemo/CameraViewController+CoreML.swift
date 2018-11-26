@@ -35,9 +35,9 @@ extension CameraViewController {
         }
     }
 
-    func setupModel() {
+    func setupModel(_ modelName: String) {
         do {
-            let modelURL = Bundle.main.url(forResource: "MobileNet", withExtension: "mlmodelc")
+            let modelURL = Bundle.main.url(forResource: modelName, withExtension: "mlmodelc")
             let model = try VNCoreMLModel(for: MLModel(contentsOf: modelURL!))
 
             let request = VNCoreMLRequest(model: model) { (request, error) in

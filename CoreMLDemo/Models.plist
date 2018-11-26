@@ -4,5 +4,6 @@
 <array>
 	<string>MobileNet</string>
 	<string>Flowers</string>
+	<string>Animals</string>
 </array>
 </plist>

@@ -13,6 +13,9 @@
 		3323351A21A3F98900D23CCA /* CameraViewController+CoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323351921A3F98900D23CCA /* CameraViewController+CoreML.swift */; };
 		3323351C21A3FC9600D23CCA /* Models.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3323351B21A3FC9600D23CCA /* Models.plist */; };
 		3323352021A405A900D23CCA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323351F21A405A900D23CCA /* ResultViewController.swift */; };
+		3369059E21ABA88E0052C3C4 /* CameraViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3369059D21ABA88E0052C3C4 /* CameraViewController+TableView.swift */; };
+		336905A221ABCB5D0052C3C4 /* ModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336905A121ABCB5D0052C3C4 /* ModelCell.swift */; };
+		336905A421ABDE9C0052C3C4 /* Animals.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 336905A321ABDE9C0052C3C4 /* Animals.mlmodel */; };
 		33848E6C21A298970017637C /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33848E6B21A298970017637C /* CameraPreviewView.swift */; };
 		33848E6E21A2A8680017637C /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33848E6D21A2A8680017637C /* PhotoCaptureDelegate.swift */; };
 		33C2CB82219C217E00BBEFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C2CB81219C217E00BBEFAE /* AppDelegate.swift */; };
@@ -21,8 +24,8 @@
 		33C2CB89219C218000BBEFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C2CB88219C218000BBEFAE /* Assets.xcassets */; };
 		33C2CB8C219C218000BBEFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C2CB8A219C218000BBEFAE /* LaunchScreen.storyboard */; };
 		33C2CBA2219C218100BBEFAE /* CoreMLDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C2CBA1219C218100BBEFAE /* CoreMLDemoUITests.swift */; };
-		33C2CBB0219C29D400BBEFAE /* 0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C2CBAF219C29D400BBEFAE /* 0001.png */; };
-		33C5BE8021A5009A005493ED /* ScaleUpPresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C5BE7F21A5009A005493ED /* ScaleUpPresentAnimation.swift */; };
+		33C5BE8021A5009A005493ED /* ScaleAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C5BE7F21A5009A005493ED /* ScaleAnimator.swift */; };
+		33C5BEDC21A681C5005493ED /* CaptureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C5BEDB21A681C5005493ED /* CaptureButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3323351921A3F98900D23CCA /* CameraViewController+CoreML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraViewController+CoreML.swift"; sourceTree = "<group>"; };
 		3323351B21A3FC9600D23CCA /* Models.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Models.plist; sourceTree = "<group>"; };
 		3323351F21A405A900D23CCA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3369059D21ABA88E0052C3C4 /* CameraViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraViewController+TableView.swift"; sourceTree = "<group>"; };
+		336905A121ABCB5D0052C3C4 /* ModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCell.swift; sourceTree = "<group>"; };
+		336905A321ABDE9C0052C3C4 /* Animals.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Animals.mlmodel; sourceTree = "<group>"; };
 		33848E6B21A298970017637C /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		33848E6D21A2A8680017637C /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
 		33C2CB7E219C217E00BBEFAE /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +68,8 @@
 		33C2CB9D219C218100BBEFAE /* CoreMLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C2CBA1219C218100BBEFAE /* CoreMLDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLDemoUITests.swift; sourceTree = "<group>"; };
 		33C2CBA3219C218100BBEFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C2CBAF219C29D400BBEFAE /* 0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0001.png; sourceTree = "<group>"; };
-		33C5BE7F21A5009A005493ED /* ScaleUpPresentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleUpPresentAnimation.swift; sourceTree = "<group>"; };
+		33C5BE7F21A5009A005493ED /* ScaleAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimator.swift; sourceTree = "<group>"; };
+		33C5BEDB21A681C5005493ED /* CaptureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		3323351021A3EE8900D23CCA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				336905A321ABDE9C0052C3C4 /* Animals.mlmodel */,
 				3323351521A3F2E300D23CCA /* Flowers.mlmodel */,
 				3323351321A3F2D200D23CCA /* MobileNet.mlmodel */,
 			);
@@ -125,18 +132,20 @@
 				33C2CB81219C217E00BBEFAE /* AppDelegate.swift */,
 				3323351F21A405A900D23CCA /* ResultViewController.swift */,
 				33C2CB83219C217E00BBEFAE /* CameraViewController.swift */,
+				3369059D21ABA88E0052C3C4 /* CameraViewController+TableView.swift */,
 				3323351721A3F8B400D23CCA /* CameraViewController+AVCaptureSession.swift */,
 				3323351921A3F98900D23CCA /* CameraViewController+CoreML.swift */,
 				33848E6D21A2A8680017637C /* PhotoCaptureDelegate.swift */,
 				33848E6B21A298970017637C /* CameraPreviewView.swift */,
+				33C5BEDB21A681C5005493ED /* CaptureButton.swift */,
+				33C5BE7F21A5009A005493ED /* ScaleAnimator.swift */,
+				336905A121ABCB5D0052C3C4 /* ModelCell.swift */,
 				33C2CB85219C217E00BBEFAE /* Main.storyboard */,
 				33C2CB88219C218000BBEFAE /* Assets.xcassets */,
 				33C2CB8A219C218000BBEFAE /* LaunchScreen.storyboard */,
 				33C2CB8D219C218000BBEFAE /* Info.plist */,
-				33C2CBAF219C29D400BBEFAE /* 0001.png */,
 				3323351B21A3FC9600D23CCA /* Models.plist */,
 				3323351021A3EE8900D23CCA /* Model */,
-				33C5BE7F21A5009A005493ED /* ScaleUpPresentAnimation.swift */,
 			);
 			path = CoreMLDemo;
 			sourceTree = "<group>";
@@ -255,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3323351C21A3FC9600D23CCA /* Models.plist in Resources */,
-				33C2CBB0219C29D400BBEFAE /* 0001.png in Resources */,
 				33C2CB8C219C218000BBEFAE /* LaunchScreen.storyboard in Resources */,
 				33C2CB89219C218000BBEFAE /* Assets.xcassets in Resources */,
 				33C2CB87219C217E00BBEFAE /* Main.storyboard in Resources */,
@@ -284,11 +292,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				33848E6C21A298970017637C /* CameraPreviewView.swift in Sources */,
+				3369059E21ABA88E0052C3C4 /* CameraViewController+TableView.swift in Sources */,
+				336905A421ABDE9C0052C3C4 /* Animals.mlmodel in Sources */,
 				3323351821A3F8B400D23CCA /* CameraViewController+AVCaptureSession.swift in Sources */,
 				3323352021A405A900D23CCA /* ResultViewController.swift in Sources */,
 				3323351421A3F2D200D23CCA /* MobileNet.mlmodel in Sources */,
-				33C5BE8021A5009A005493ED /* ScaleUpPresentAnimation.swift in Sources */,
+				336905A221ABCB5D0052C3C4 /* ModelCell.swift in Sources */,
+				33C5BE8021A5009A005493ED /* ScaleAnimator.swift in Sources */,
 				3323351A21A3F98900D23CCA /* CameraViewController+CoreML.swift in Sources */,
+				33C5BEDC21A681C5005493ED /* CaptureButton.swift in Sources */,
 				3323351621A3F2E300D23CCA /* Flowers.mlmodel in Sources */,
 				33C2CB84219C217E00BBEFAE /* CameraViewController.swift in Sources */,
 				33C2CB82219C217E00BBEFAE /* AppDelegate.swift in Sources */,
