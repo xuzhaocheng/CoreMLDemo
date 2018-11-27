@@ -16,6 +16,7 @@
 		3369059E21ABA88E0052C3C4 /* CameraViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3369059D21ABA88E0052C3C4 /* CameraViewController+TableView.swift */; };
 		336905A221ABCB5D0052C3C4 /* ModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336905A121ABCB5D0052C3C4 /* ModelCell.swift */; };
 		336905A421ABDE9C0052C3C4 /* Animals.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 336905A321ABDE9C0052C3C4 /* Animals.mlmodel */; };
+		336905A621ABEF5B0052C3C4 /* Fruits.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 336905A521ABEF5B0052C3C4 /* Fruits.mlmodel */; };
 		33848E6C21A298970017637C /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33848E6B21A298970017637C /* CameraPreviewView.swift */; };
 		33848E6E21A2A8680017637C /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33848E6D21A2A8680017637C /* PhotoCaptureDelegate.swift */; };
 		33C2CB82219C217E00BBEFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C2CB81219C217E00BBEFAE /* AppDelegate.swift */; };
@@ -55,6 +56,7 @@
 		3369059D21ABA88E0052C3C4 /* CameraViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraViewController+TableView.swift"; sourceTree = "<group>"; };
 		336905A121ABCB5D0052C3C4 /* ModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCell.swift; sourceTree = "<group>"; };
 		336905A321ABDE9C0052C3C4 /* Animals.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Animals.mlmodel; sourceTree = "<group>"; };
+		336905A521ABEF5B0052C3C4 /* Fruits.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Fruits.mlmodel; sourceTree = "<group>"; };
 		33848E6B21A298970017637C /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		33848E6D21A2A8680017637C /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
 		33C2CB7E219C217E00BBEFAE /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 		3323351021A3EE8900D23CCA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				336905A521ABEF5B0052C3C4 /* Fruits.mlmodel */,
 				336905A321ABDE9C0052C3C4 /* Animals.mlmodel */,
 				3323351521A3F2E300D23CCA /* Flowers.mlmodel */,
 				3323351321A3F2D200D23CCA /* MobileNet.mlmodel */,
@@ -299,6 +302,7 @@
 				3323351421A3F2D200D23CCA /* MobileNet.mlmodel in Sources */,
 				336905A221ABCB5D0052C3C4 /* ModelCell.swift in Sources */,
 				33C5BE8021A5009A005493ED /* ScaleAnimator.swift in Sources */,
+				336905A621ABEF5B0052C3C4 /* Fruits.mlmodel in Sources */,
 				3323351A21A3F98900D23CCA /* CameraViewController+CoreML.swift in Sources */,
 				33C5BEDC21A681C5005493ED /* CaptureButton.swift in Sources */,
 				3323351621A3F2E300D23CCA /* Flowers.mlmodel in Sources */,
